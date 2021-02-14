@@ -1,0 +1,6 @@
+click
+boto3
+fabric
+git+git://github.com/martinfarrow/fluentWrap.git@v0.5
+git+git://github.com/martinfarrow/awsDataCollector.git@v0.3.1
+git+git://github.com/martinfarrow/ssmParameterManager.git@v0.1
