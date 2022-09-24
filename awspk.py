@@ -2072,7 +2072,7 @@ def deleteECRImages(untagged, imagedigests, imagetags, reponame, images):
     """Supply a list of imagestags or imagedigests to delete from the specified ECR repo"""
     global adc
     if untagged and imagedigests is False:
-        logger.error("You must supply --imagedigests with --untagged")
+        logger.error("You must supply --imageDigests with --untagged")
         return False
     if imagedigests is None and imagetags is None:
         logger.error("You must supply --imageTags or --imageDigests")
